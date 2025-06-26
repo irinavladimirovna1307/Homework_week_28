@@ -1,12 +1,66 @@
-# React + Vite
+# 🎨 Текстовый Форматтер - React приложение
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это красивое и функциональное React-приложение для форматирования текста с современным пользовательским интерфейсом.
+  
+  
 
-Currently, two official plugins are available:
+## ✨ Особенности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **5 режимов форматирования**:
+  - ВЕРХНИЙ РЕГИСТР
+  - нижний регистр
+  - Заглавные Буквы
+  - Реверс текста
+  - ЧеРеДоВаНиЕ
+- **Кастомизация цветов**:
+  - Выбор цвета текста
+  - Выбор цвета фона
+- **История операций**:
+  - Сохранение всех форматирований
+  - Отображение оригинального текста
+  - Временные метки
+- **Адаптивный дизайн** - работает на любых устройствах
+- **Анимации** - плавные переходы и hover-эффекты
 
-## Expanding the ESLint configuration
+## 🚀 Технологии
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Vite
+- CSS Modules
+- Современный CSS (Flexbox, Grid, градиенты, тени)
+
+## 📂 Структура проекта
+src/  
+├── components/  
+│ ├── TextFormatter/  
+│ │ ├── TextFormatter.jsx # Основной компонент  
+│ │ ├── TextFormatter.css # Стили компонента  
+│ │ └── index.js # Экспорт компонента  
+├── App.jsx # Корневой компонент приложения  
+├── main.jsx # Точка входа  
+└── index.css # Глобальные стили  
+
+## ⚙️ Установка и запуск
+
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/your-username/text-formatter.git 
+```
+2. Перейдите в директорию проекта:
+```bash
+cd text-formatter
+```
+3. Установите зависимости:
+```bash
+npm install
+```
+4. Запустите приложение:
+```bash
+npm run dev
+```
+5. Откройте приложение в браузере:
+```
+http://localhost:5173
+```
+## 📜 Лицензия
+Этот проект распространяется под лицензией MIT.
